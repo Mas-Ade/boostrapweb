@@ -1,12 +1,15 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { Component } from 'react';
 
-function Home() {
-  return (
-    <div>
-      <h1 bg-dark >Selamat Datang di Halaman Home</h1>
+
+class Home extends Component {
+    render(){
+    return (
+        <div>
+
+      <h1>Selamat Datang di Halaman Home</h1>
     </div>
-  );
+    )
+}
 }
 
 export default Home;

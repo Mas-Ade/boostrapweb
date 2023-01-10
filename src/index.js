@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from "react-router-dom";
+import reportWebVitals from './reportWebVitals';
+
+// Import Your CSS
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// Import Your Component / JSX
 import App from './App';
 import Header from './Components/header';
-import Footer from'./Components/footer';
-import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter } from "react-router-dom";
+import Footer from './Components/footer';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

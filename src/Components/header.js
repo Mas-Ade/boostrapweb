@@ -19,6 +19,7 @@ class Header extends Component {
           <li><Link  class="nav-link px-2 text-secondary" to="/Schedule">Schedule</Link></li>
           <li><Link  class="nav-link px-2 text-secondary" to="/Report">Report</Link></li>
           <li><Link  class="nav-link px-2 text-secondary" to="/About">About</Link></li>
+          <li><Link  class="nav-link px-2 text-secondary" to="/testApi">TesApi</Link></li>
         </ul>
 
         <div class="text-end">
